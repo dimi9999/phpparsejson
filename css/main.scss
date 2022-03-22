@@ -1,0 +1,28 @@
+
+@import "base/variables";
+@import "base/mixins";
+@import "base/reset";
+@import "base/typography";
+@import "base/helpers";
+@import "base/display";
+
+// UI Fabric & Font Aweomse
+@import 'fontawesome/stylesheets/font-awesome';
+
+// Common Layouts
+@import 'layouts/header';
+@import 'layouts/footer';
+
+// Custom Styles
+@import 'layouts/custom';
+
+p {
+  color: $black;
+}
+
+.box {
+  @include size(500px, 300px);
+  background: $white;
+}
+ 
+ 

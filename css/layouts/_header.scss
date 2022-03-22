@@ -1,0 +1,13 @@
+// HEADER 
+
+header {
+	& .container {
+		@include flexbox;
+		align-items:center;
+		
+		& .logo {
+			flex-grow:2;
+		}
+	}
+
+}
